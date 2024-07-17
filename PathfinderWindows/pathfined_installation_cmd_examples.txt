@@ -1,0 +1,14 @@
+Example installation CMD
+
+64-bit Windows
+msiexec /q /i "pathfinder-x64-4.0.20-en-us.msi" /L*V "C:\Windows\Temp\pathfinder_install.log" SERVER="indeed.velocityapp.co" PROXY="noproxy" ACCEPT_EULA=1 API_KEY=1bfda4ac-456f-50b1-f270-a632baad4aba
+
+32-bit Windows
+msiexec /q /i "pathfinder-x86-4.0.20-en-us.msi" /L*V "C:\Windows\Temp\pathfinder_install.log" SERVER="indeed.velocityapp.co" PROXY="noproxy" ACCEPT_EULA=1 API_KEY=1bfda4ac-456f-50b1-f270-a632baad4aba
+
+Linux
+sudo ./pathfinder-4.0.20-installer-linux.sh
+
+MacOS
+sudo chmod +x pathfinder-4.0.20-installer-macos.sh
+sudo ./pathfinder-4.0.20-installer-macos.sh
